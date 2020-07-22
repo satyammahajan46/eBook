@@ -14,7 +14,7 @@
 <?php
     include "connection.php";
     ?>
-<div class="container" style="padding-bottom:10;padding-top:10px;">
+<div class="container heightVH" style="padding-bottom:10;padding-top:10px;">
 <h1 class="center-block">Order details</h1>
 <?php
     include "crate.php";

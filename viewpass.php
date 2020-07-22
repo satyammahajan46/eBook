@@ -10,14 +10,14 @@ include "validateLogin.php";
         <title>Welcome</title>
     </head>
     <body>
-        <div>
+        <div class="heightVH">
             <?php
             include "connection.php";
             ?>
             <form action="viewpass.php" method="post">;
                 <div class="container" style="padding-bottom:10;padding-top:10px;">
-                    <input type="checkbox" name="details[]" value="id"><label>View User ID &nbsp</label>
-                    <input type="checkbox" name="details[]" value="password"><label>View Password &nbsp</label>
+                    <input type="checkbox" name="details[]" value="id">&nbsp;<label>View User ID &nbsp;|</label>
+                    <input type="checkbox" name="details[]" value="password">&nbsp;<label>View Password &nbsp;</label>
                     <input type="submit" name="submit" value="Submit"/>
                 </div>
             </form>

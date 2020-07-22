@@ -18,7 +18,7 @@ include "validateLogin.php";
 
 
 
-        <div class="container">
+        <div class="container heightVH">
 
             <?php
 
@@ -32,7 +32,7 @@ include "validateLogin.php";
 
                 echo '<table><th>';
                 while($row = $result->fetch_assoc()) {  
-                    echo '<td><input type="checkbox" name="genre_list[]" value="'.$row["BGenre"]. '""><label>'.$row["BGenre"].'&nbsp</label> </td>';
+                    echo '<td><input type="checkbox" name="genre_list[]" value="'.$row["BGenre"]. '""><label>&nbsp'.$row["BGenre"].'&nbsp</label>|&nbsp; </td>';
                 }
                 echo '</th></table><br><input type="submit" name="submit" value="Submit"/></table> </form>';
             } else {

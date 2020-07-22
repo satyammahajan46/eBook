@@ -10,6 +10,7 @@ include 'validateLogin.php';
         <title>Welcome</title>
     </head>
     <body>
+        <div class="heightVH">
         <div style="padding-top:50px">
             <?php
             include "connection.php";
@@ -19,6 +20,7 @@ include 'validateLogin.php';
         <h3 class="text-center">Welcome 
             <?php include 'getName.php'; ?>
         </h3>
+        </div>
 
 
         <footer style="padding-top:50px">

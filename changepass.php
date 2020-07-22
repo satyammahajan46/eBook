@@ -10,7 +10,7 @@ include "validateLogin.php";
         <title>Welcome</title>
     </head>
     <body>
-        <div>
+        <div class="heightVH">
             <?php
             include "connection.php";
             ?>

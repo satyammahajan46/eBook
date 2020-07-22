@@ -19,8 +19,8 @@ include "validateLogin.php";
 
             <form action="bookList.php" method="post">;
             <div class="container" style="padding-bottom:10;padding-top:10px;">
-                <input type="checkbox" name="details[]" value="name"><label>View Book Name &nbsp</label>
-                <input type="checkbox" name="details[]" value="isbn"><label>View ISBN &nbsp</label>
+                <input type="checkbox" name="details[]" value="name">&nbsp;<label>View Book Name &nbsp;|</label>
+                <input type="checkbox" name="details[]" value="isbn">&nbsp;<label>View ISBN &nbsp;</label>
                 <input type="submit" name="submit" value="Submit"/>
             </div>
             </form>

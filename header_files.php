@@ -25,3 +25,8 @@
 <script type="text/javascript" src="js/main.js"></script>
 <script type="text/javascript" src="js/jquery.pogo-slider.min.js"></script>
 <script src="dist/jquery.validate.js"></script>
+<style>
+.heightVH{
+    min-height: 70vh
+}
+</style>

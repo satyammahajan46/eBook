@@ -10,13 +10,13 @@ include "validateLogin.php";
         <title>Welcome</title>
     </head>
     <body>
-        <div>
+        <div class="heightVH">
             <?php
             include "connection.php";
             ?>
             <div class="container" style="padding-bottom:10;padding-top:10px;">
                 <h1 class="center-block">Order details</h1>
-                <h3 class="center-block">Want to see all customers who have bought all books</h3>
+                <h3 class="center-block">Want to know if you have bought all the books</h3>
                 <form action="divison.php" method="post">;
                     <div class="container" style="padding-bottom:10;padding-top:10px;">
 

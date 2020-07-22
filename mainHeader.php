@@ -20,20 +20,12 @@ include 'header_files.php';
                             <ul class="nav navbar-nav navbar-right cl-effect-5">
                                 <li><a href="main.php">home</a></li>
 
-                                <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"> WRITE <span class="caret"></span>
-                                    
-                                        <ul class="dropdown-menu">
-                                            <li><a href="test.php">IDK</a></li>
-                                            <li><a href="test.php">IDK</a></li>
-                                        </ul>
-                                    </a>
-                                </li>
+                                
                                 <li class="dropdown">
                                     <a href="#" class="dropdown-toggle" data-toggle="dropdown"> Order History <span class="caret"></span>
                                         <ul class="dropdown-menu">
                                             <li><a href="viewcrate.php">View your cart</a></li>
-                                            <li><a href="divison.php">Division Query</a></li>
+                                            <li><a href="divison.php">Got All Book?</a></li>
                                         </ul>
                                     </a>
                                 </li>

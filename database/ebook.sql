@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Nov 28, 2018 at 12:09 AM
+-- Generation Time: Jul 23, 2020 at 01:04 AM
 -- Server version: 10.1.35-MariaDB
 -- PHP Version: 7.2.9
 
@@ -189,7 +189,19 @@ INSERT INTO `buys` (`UID`, `BID`) VALUES
 (2, 104),
 (2, 105),
 (2, 107),
-(2, 108);
+(2, 108),
+(7, 101),
+(7, 102),
+(7, 103),
+(7, 104),
+(7, 105),
+(7, 106),
+(7, 107),
+(7, 108),
+(7, 109),
+(7, 110),
+(7, 111),
+(7, 112);
 
 -- --------------------------------------------------------
 
@@ -311,7 +323,7 @@ INSERT INTO `user information` (`UEmail`, `UPassword`, `UName`, `UAddress`, `UTy
 ('jsingh039@langara.ca', 'jag', 'Jagdeep Singh', 'East 49 Langara', 1),
 ('kamikabrar16@gmail.com', 'kbHAPPY123', 'Kamika', '748 E 55 AVE', 1),
 ('paul@lucas.ca', 'paul', 'Paul Lucas', '738 Jervis St', 1),
-('smahajan02@langara.ca', 'sam', 'Satyam Mahajan', 'asjcgfuay', 1);
+('satyam@satyam.ca', 'SATYAM', 'Satyam Mahajan', '1245', 1);
 
 -- --------------------------------------------------------
 
@@ -334,7 +346,7 @@ INSERT INTO `user login` (`UID`, `UEmail`, `UPassword`) VALUES
 (4, 'paul@lucas.ca', 'paul'),
 (5, 'jsingh039@langara.ca', 'jag'),
 (6, 'danielliang@gmail.com', 'daniel'),
-(7, 'smahajan02@langara.ca', 'sam');
+(7, 'satyam@satyam.ca', 'SATYAM');
 
 -- --------------------------------------------------------
 
