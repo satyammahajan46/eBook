@@ -1,5 +1,7 @@
 # eBook
 
+![demo](https://github.com/satyammahajan46/eBook/blob/master/images/demo.gif)
+
 ## Features
 * Students can buys books and it allows teacher's to post serveral books onto the server
 * Designed for easy library management tasks
